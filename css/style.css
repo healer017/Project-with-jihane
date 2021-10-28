@@ -10,7 +10,7 @@ body{
     width: 100vw;
 }
 #welcome-section{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,8 @@ nav{
     justify-content: flex-end;
     background-color: darkturquoise;
     height: 10vh;
-
+    width: 100vw;
+    position: fixed;
 }
 
 ul{
@@ -53,5 +54,28 @@ ul{
 li{
     width: 100px;
     list-style: none;
+
+}
+
+
+@media (max-width: 756px){
+
+    nav{
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkturquoise;
+        flex-direction: column;
+    }
+
+    li{
+        margin: 10px;
+    }
 
 }
