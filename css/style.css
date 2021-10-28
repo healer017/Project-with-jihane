@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-#container{
-    display: flex;
-    width: 100vw;
-}
+
 #welcome-section{
     height: 100vh;
     display: flex;
@@ -17,6 +15,34 @@ body{
     align-items: center;
     background-color: #f1ffe5;
 
+}
+
+#contact{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1ffe5;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
 
 h1{
@@ -83,9 +109,10 @@ a.project-tile{
 
 .project-tile{
     font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
-   
+    margin: 0px;
+    color: black;
 }
 
 
